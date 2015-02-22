@@ -1,0 +1,39 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+My Answer: It definitely illustrated how limited we are by our own eyes and processing capabilities. By trying to use diff with cery long files, it was clear how much faster this is than trying to find a bug mnually.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+My Answer: You could see how code has evolved over time by being able to easily spot the differences. Good to look at other developers code and see how it is evolved over time.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs. having versions automatically saved, like Google docs does.
+
+Benefit of tracking across multiple files
+
+New command line commands - can use < or > to get to the beginning and end of a file. G also takes you to the end, and q will take you to the command prompt.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Changes in git controlled system are more likely to be related across files.
+
+Q: How can you use the commands git log and git diff to view the history of files
+My Answer: Git log gives you a history of all the commits, plus the messages that went with each. By doing a diff, you enter git diff <id> <id>. Tricky part is choosing the right id to compare to. You want the commit just before the one you are checking, which will be BELOW that commit in the list. You also need to look for red and green to count up all the adds and deletes. 
+
+Q: How might version control make you more confident to make changes that could break things?
+My answer: Version control makes you more confident because you know you can always get back to a state that was working.
+
+Other things I just learned:
+git checkout <commit id> temporarily allows you to use an older version of the code. You can run it to see where issues were introduced. git checkout master, or git checkout original Id will both return you to the current version. While you are running the older version, you are in a detached head state.
+
+!--Need to learn how prompts work in bash 
+
+Q: now that you have your workspace se up, what do you want to try using Git for?
+My answer: I want to start keeping my own respository for my website and learning projects
+
+!--try to go back and edit my bash profile to adjust the colors.
+
+New CL trick with Terminal - you can use tab to navigate to a directory with a space in it. It autocompletes for you. 
+
+
+
+
+
