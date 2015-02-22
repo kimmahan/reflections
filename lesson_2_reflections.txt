@@ -16,3 +16,14 @@ A: They can allow you to have multiple thought trains in progress
 
 Q:How do the diagrams help you visualize the branch structure?
 A: Viewing them almost as train tracks, you can see where code is getting forked.
+
++  this.color    = 'black';
+Coin = function ()
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram tthe way we do?
+A: Git combines the changes and tries to identify conflicts
+
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A: It might take a little longer to track down changes, but prevents errors that could cause problems if merged manually
+
