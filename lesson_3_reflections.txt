@@ -16,3 +16,8 @@ a branch is a break in the sequence of commits that allows you to have multiple 
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: You could always create a branch if you want to test out differences side by side. It also allows you to work offline. 
+
+***Rember origin <new branch>
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: We used to use source code control systems that allowed developers to checkout sections of code, but then no one else could work on them. This meant there was no complexity from merging code, but you also could not easily collaborate in real time. 
