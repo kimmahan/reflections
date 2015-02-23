@@ -1,0 +1,2 @@
+Q:When would you want to use a remote repository rather than keeping all your work local?
+A:When working with teams that need to share code, or when you want to be able to access your code from multiple devices and locations
