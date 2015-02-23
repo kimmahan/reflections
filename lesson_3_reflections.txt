@@ -11,3 +11,8 @@ A: forks create a new repository based on an existing one, with attribution to t
 clones are copies of a repository, which I might use when first joining a project with multiple repositories.
 
 a branch is a break in the sequence of commits that allows you to have multiple versions of code being updated simultaneously, or to maage multiple trains of thought.
+
+**note to self, run git diff to see changes before I commit
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: You could always create a branch if you want to test out differences side by side. It also allows you to work offline. 
