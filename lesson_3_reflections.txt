@@ -21,3 +21,6 @@ A: You could always create a branch if you want to test out differences side by 
 
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A: We used to use source code control systems that allowed developers to checkout sections of code, but then no one else could work on them. This meant there was no complexity from merging code, but you also could not easily collaborate in real time. 
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: When you are making small fixes or enhancements to a large program, you want to be cautious not to disrupt working code. If you a working with a team, creating and merging brances allows you to collaborate and get peer reviews to help prevent accidentally pushing mistakes into working code.
