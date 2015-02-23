@@ -4,3 +4,10 @@ A:When working with teams that need to share code, or when you want to be able t
 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: If you are working with a team, there is a possibility that something could break or overwrite what you are working on locally. It also might interrupt the flow of something you are working on.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: forks create a new repository based on an existing one, with attribution to the original author. I would use this when building off of someone else's work, or on a project that starts with a base framework like bootstrap/foundation.
+
+clones are copies of a repository, which I might use when first joining a project with multiple repositories.
+
+a branch is a break in the sequence of commits that allows you to have multiple versions of code being updated simultaneously, or to maage multiple trains of thought.
